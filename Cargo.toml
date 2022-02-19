@@ -1,0 +1,18 @@
+[package]
+name = "bevy_controller_2d"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.6", features = ["dynamic"] }
+bevy_prototype_lyon = { version = "0.4", optional = true }
+impacted = { git = "https://github.com/tqwewe/impacted", features = [
+  "bevy-06",
+] }
+
+[dev-dependencies]
+bevy-inspector-egui = "0.8"
+
+[features]
+default = []
+debug = ["bevy_prototype_lyon"]
