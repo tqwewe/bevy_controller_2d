@@ -17,7 +17,7 @@ Character controller plugin for Bevy.
 - Vertical ray count _(default: `4`)_
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tqwewe/bevy_controller_2d/main/preview.gif">
+  <img src="https://raw.githubusercontent.com/tqwewe/bevy_controller_2d/main/preview.gif" width="100%">
 </p>
 
 ### Install
